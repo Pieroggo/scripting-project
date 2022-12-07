@@ -1,0 +1,31 @@
+body{
+    background-color:aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table{
+    width:minmax(620px,80%);
+    font-size:20px;
+    margin:auto;
+    border-spacing:10px;
+}
+tr{
+    margin:5px;
+}
+th,td{
+    background-color: aqua;
+    padding:12px;
+    border-radius: 8px;
+    filter:drop-shadow(5px 0px 10px black);
+}
+th{
+    outline: 3px solid green;
+    font-weight: bold;
+    
+    background-color:rgb(25, 128, 146);
+}
+td{
+    outline: 3px solid blue;
+    border-color:black;
+    
+}
