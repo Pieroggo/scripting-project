@@ -9,7 +9,6 @@ set minute=%time:~3,2%
 set second=%time:~6,2%
 set msecond=%time:~9,2%
 set name=%day%%month%%year%_%hours%%minute%%second%
-echo %name%
 copy backup.txt backup
 copy report.html backup 
 copy style.css backup
