@@ -27,7 +27,6 @@ goto :finish
 echo Project v1.0
 echo Task: Triangles (IO)
 echo Task Overview: For a list of numbers from 1 to 1000000000, check if there is a set of three numbers that could satisfy the traingle condition, else print NIE
-echo Author: Grzegorz Mazur gr. 4/8
 goto :finish
 :backup
 echo Doing backup...
